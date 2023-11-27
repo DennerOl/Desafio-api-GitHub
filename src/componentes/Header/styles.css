@@ -1,0 +1,15 @@
+header {
+
+  background-color: var(--color-bg-secondary);
+  color: var(--color-font-primary);
+}
+
+.cabecalho {
+  height: 62px;
+  display: flex;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
