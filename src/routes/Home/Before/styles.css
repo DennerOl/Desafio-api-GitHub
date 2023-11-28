@@ -3,7 +3,7 @@
   max-width: 960px;
   margin: 54px auto;
   padding: 54px 31px;
-  background-color: #E6F7FF;
+  background-color: var(--color-bg-tertiary);
   border-radius: 16px;
   height: 270px;
 }
@@ -36,32 +36,3 @@
   font-size: 16px;
   color: #BFBFBF;
 }
-
-
-
-
-
-
-/*.card {
-  height: 270px;
-  background-color: var(--color-bg-tertiary);
-  padding-top: 54px;
-  padding-left: 31px;
-}
-
-.text-card {
-  font-size: 38px;
-  font-weight: 500;
-}
-
-.pesquisar {
-  width: 298px;
-  height: 40px;
-  margin-top: 20px;
-}
-
-#placeholder-text::placeholder {
-  color: var(--color-font-secondary);
-  font-size: 16px;
-}
-*/

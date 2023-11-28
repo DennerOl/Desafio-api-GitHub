@@ -13,7 +13,7 @@
 .profile h3 {
   font-size: 20px;
   font-weight: 500;
-  color: #1890ff;
+  color: var(--color-bg-secondary);
   margin-top: 8px;
   margin-bottom: 19px;
 }
@@ -28,7 +28,7 @@
   height: 247px;
   margin-left: 29px;
   padding: 8px 14px;
-  background-color: #fff;
+  background-color: var(--color-bg-primary);
   border-radius: 6px;
   border: 1px solid #d9d9d9;
 }
