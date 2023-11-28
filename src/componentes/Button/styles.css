@@ -2,10 +2,3 @@
   background-color: var(--color-bg-secondary);
   color: var(--color-font-primary);
 }
-
-.dsc-btn-page-container {
-  width: 101px;
-  display: grid;
-  grid-gap: 20px;
-  margin-top: 27px;
-}
