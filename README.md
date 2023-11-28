@@ -1,30 +1,20 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O desafio desse projeto foi entregar um projeto ReactJS conforme design Figma abaixo. 
 
-Currently, two official plugins are available:
+https://www.figma.com/file/igQqM14f9sP17jyo54Y8vL/DesafioGithubAPI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O projeto foi criado usando o vite e seu objetivo foi avaliar minhas habilidades em consumo de API
+aqui eu consumo a API do Github
 
-## Expanding the ESLint configuration
+O endereço da API do Github é este (troque o nome do usuário por outro):
+https://api.github.com/users/DennerOl
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+Critérios de correção do projeto foram:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1) Duas páginas com rotas funcionando, navegando entre elas.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2) Quando buscar um usuário que existe, os dados do usuário devem aparecer conforme layout
+
+3) Quando buscar um usuário que não existe, deve aparecer uma mensagem conforme layout
